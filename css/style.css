@@ -65,7 +65,9 @@ html, body{
     
 }
 @media only screen and (min-width: 601px){
-
+    #home h2{
+        font-size: 3rem;
+    }
 }
 @media only screen and (min-width: 993px){
 
