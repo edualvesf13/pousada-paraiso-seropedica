@@ -10,4 +10,4 @@
 See [Releases](https://github.com/edualvesf13/pousada-paraiso-seropedica/releases) for detailed changelog.
 
 ## License
-[MIT License](https://github.com/edualvesf13/pousada-paraiso-seropedica/blob/master/LICENSE.md) © [Afonso Pacifer](https://duferreira.com.br/)
+[MIT License](https://github.com/edualvesf13/pousada-paraiso-seropedica/blob/master/LICENSE.md) © [Du Ferreira](https://duferreira.com.br/)
