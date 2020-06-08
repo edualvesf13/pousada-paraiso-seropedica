@@ -1,0 +1,72 @@
+:root{
+    --primary-color: #3b88ca;
+    --secondary-color: #8237a0;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+}
+html, body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-primary-color{
+    background-color: var(--primary-color);
+}
+    .bg-primary-color:hover{
+        background-color: #2a5e8b;
+    }
+.bg-secondary-color{
+    background-color: var(--secondary-color);
+}
+    .bg-secondary-color:hover{
+        background-color: #57256d;
+    }
+.informacao{
+    width: 100vw;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+}
+
+#home{
+    animation: mudarbg 20s infinite;
+    height: 100vh;
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+#home .container{
+    text-align: center;
+}
+#home h2{
+    font-weight: 900;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px #000;
+}
+#home p{
+    font-size: 1.5rem;
+}
+
+@keyframes mudarbg {
+    40%{background-image: url(../img/bg2.jpg);}
+    80%{background-image: url(../img/bg3.jpg);}
+    100%{background-image: url(../img/bg1.jpg);}
+}
+
+/* MEDIAS */
+@media only screen and (max-width: 480px){
+    
+}
+@media only screen and (min-width: 601px){
+
+}
+@media only screen and (min-width: 993px){
+
+}
