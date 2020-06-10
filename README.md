@@ -4,8 +4,6 @@
 
 > :rocket: Layout Single page made in html, css and jQuery using the MaterializeCSS framework.
 
-## Teste 1
-
 ## History
 See [Releases](https://github.com/edualvesf13/pousada-paraiso-seropedica/releases) for detailed changelog.
 
