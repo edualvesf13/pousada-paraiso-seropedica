@@ -16,7 +16,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="row red informacao">Layout feito para fins de treinamento, não representando uma empresa real</div>
+    <header id="header">
+        <div class="row red informacao">Layout feito para fins de treinamento, não representando uma empresa real</div>
+        <nav id="nav-bar">
+            <div class="nav-wrapper container ">
+                <a href="#">
+                    <img src="./img/logo.png" alt="Logo Pousada Paraíso Seropédica" class="logo__img">
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">Pacotes</a></li>
+                    <li><a href="#">Acomodações</a></li>
+                    <li><a href="#">Lazer</a></li>
+                    <li><a href="#">Tarifário</a></li>
+                    <li><a href="#">Corporativo</a></li>
+                    <li><a href="#">Fotos</a></li>
+                </ul>
+
+                <!-- Menu Mobile -->
+                <!-- <a href="#" data-activetes="menu-mobile" class="hide-on-large-only button-collapse right"> <i class="material-icons">menu</i> </a> -->
+                <a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                <ul id="slide-out" class="sidenav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pacotes</a></li>
+                    <li><a href="#">Acomodações</a></li>
+                    <li><a href="#">Lazer</a></li>
+                    <li><a href="#">Tarifário</a></li>
+                    <li><a href="#">Corporativo</a></li>
+                    <li><a href="#">Fotos</a></li>
+                </ul>
+
+                
+            </div>
+        </nav>
+
+    </header>
     <section id="home">
         <div class="row container">
            <div class="col s12">
@@ -29,12 +62,14 @@
            </div>
         </div>
     </section>
-
-    <script src="./js/materialize.js"></script>
-    <script
-  src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
   crossorigin="anonymous"></script>
-    <script src="./js/script.js"></script>
+    <script src="./js/materialize.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+    });     
+    </script>
 </body>
 </html>

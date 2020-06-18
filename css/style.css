@@ -23,11 +23,39 @@ html, body{
     .bg-secondary-color:hover{
         background-color: #57256d;
     }
+#header{
+    position: fixed;
+}
+#header .row{
+    margin: 0;
+}
 .informacao{
     width: 100vw;
     color: #fff;
     text-align: center;
-    position: fixed;
+}
+
+#nav-bar{
+    background-color: rgba(0, 0, 0, .5);
+}
+#nav-bar .logo__img{
+    width: 56px;
+    margin-top: 10px;
+}
+#nav-bar ul li a:hover{
+    background-color: var(--primary-color);
+}
+.sidenav{
+    background-color: #3b88ca;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+}
+.sidenav li > a{
+    color: #fff;
+    font-size: 2rem;
+    margin: 10px 0px;
 }
 
 #home{
