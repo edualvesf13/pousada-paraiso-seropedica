@@ -7,6 +7,8 @@ h1, h2, h3, h4, h5, h6{
 }
 html, body{
     font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    line-height: 2;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,6 +27,7 @@ html, body{
     }
 #header{
     position: fixed;
+    z-index: 3;
 }
 #header .row{
     margin: 0;
@@ -68,6 +71,7 @@ html, body{
     color: #fff;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 #home .container{
     text-align: center;
@@ -88,10 +92,38 @@ html, body{
     100%{background-image: url(../img/bg1.jpg);}
 }
 
+/* ABOUT */
+#about{
+    padding: 40px 0px;
+    font-size: 1.1em;
+}
+
+#about img{
+    width: 400px;
+    height: 400px;
+}
+#about h2{
+    font-size: 2em;
+    color: var(--primary-color);
+    text-align: center;
+}
+#about p{
+    text-align: justify;
+}
+#about button{
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
 /* MEDIAS */
 @media only screen and (max-width: 601px){
     #home h2{
         font-size: 3rem;
+    }
+    #about img{
+        width: 250px;
+        height: 250px;
     }
 }
 @media only screen and (min-width: 993px){

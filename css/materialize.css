@@ -7542,7 +7542,7 @@ input[type=range]::-ms-thumb {
   height: -moz-calc(100%);
   padding-bottom: 60px;
   background-color: #fff;
-  z-index: 999;
+  z-index: 9999;
   overflow-y: auto;
   will-change: transform;
   -webkit-backface-visibility: hidden;
@@ -7748,7 +7748,6 @@ input[type=range]::-ms-thumb {
   opacity: 0;
   height: 120vh;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 997;
   display: none;
 }
 
